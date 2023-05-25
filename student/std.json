@@ -1,0 +1,15 @@
+{
+  "posts": [
+    {
+      "user": "sunil",
+      "date": "2211-02-22",
+      "amount": "30k",
+      "status": "ok",
+      "id": 1
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

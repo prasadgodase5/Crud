@@ -1,0 +1,15 @@
+.form-group{
+    padding: 10px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.row{
+    width: 600px;
+}
+.head{
+    padding: 20px;
+    text-align: center;
+}

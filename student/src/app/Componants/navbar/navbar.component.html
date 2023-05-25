@@ -1,0 +1,33 @@
+<nav class="navbar navbar-dark bg-dark">
+  <a class="navbar-brand">Navbar</a>
+  <form class="form-inline">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" (click)="openDialog()">ADD</button>
+    <button (click)="demoDialog()">demo</button>
+  </form>
+</nav>
+
+<div class="Main">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Sr.no</th>
+        <th>User</th>
+        <th>Date</th>
+        <th>Amount</th>
+        <th>Status</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let items of names">
+        <th>{{items.id}}</th>
+        <td>{{items.user}}</td>
+        <td>{{items.date}}</td>
+        <td>{{items.amount}}</td>
+        <td>{{items.status}}</td>
+        <td><button class="btn btn-primary" (click)="updatedialog(items)">edit</button><button class="btn btn-danger" (click)=" DeleteData(items.id)">delete</button></td>
+        
+      </tr>
+    </tbody>
+  </table>
+</div>
